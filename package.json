@@ -1,0 +1,31 @@
+{
+  "name": "altschmerz",
+  "version": "0.0.1",
+  "description": "a sandbox for debugging electron-builder and electron-updater issues",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "build": "true",
+    "test": "true",
+    "package": "rimraf dist && electron-builder --publish onTag"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidel/electron-updater-altschmerz.git"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/lidel/electron-updater-altschmerz/issues"
+  },
+  "homepage": "https://github.com/lidel/electron-updater-altschmerz#readme",
+  "devDependencies": {
+    "electron": "9.3.2",
+    "electron-builder": "22.8.1",
+    "rimraf": "3.0.2"
+  },
+  "dependencies": {
+    "electron-log": "4.2.4",
+    "electron-updater": "4.3.5"
+  }
+}
