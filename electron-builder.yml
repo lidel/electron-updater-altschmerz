@@ -35,9 +35,11 @@ dmg:
       path: /Applications
 
 nsis:
+  include: src/nsis.nsh
   oneClick: false
   warningsAsErrors: false
   perMachine: false
+  allowElevation: true
   allowToChangeInstallationDirectory: true
 
 linux:
