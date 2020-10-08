@@ -1,6 +1,6 @@
 {
   "name": "altschmerz",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a sandbox for debugging electron-builder and electron-updater issues",
   "main": "src/index.js",
   "private": true,
